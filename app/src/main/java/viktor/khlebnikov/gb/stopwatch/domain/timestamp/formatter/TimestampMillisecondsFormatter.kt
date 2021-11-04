@@ -1,6 +1,6 @@
-package viktor.khlebnikov.gb.stopwatch
+package viktor.khlebnikov.gb.stopwatch.domain.timestamp.formatter
 
-class TimestampMillisecondsFormatter() {
+class TimestampMillisecondsFormatter {
 
     fun format(timestamp: Long): String {
         val millisecondsFormatted = (timestamp % 1000).pad(3)

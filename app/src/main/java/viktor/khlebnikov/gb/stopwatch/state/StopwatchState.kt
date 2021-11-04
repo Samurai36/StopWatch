@@ -1,4 +1,4 @@
-package viktor.khlebnikov.gb.stopwatch
+package viktor.khlebnikov.gb.stopwatch.state
 
 sealed class StopwatchState {
 

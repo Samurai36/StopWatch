@@ -1,4 +1,7 @@
-package viktor.khlebnikov.gb.stopwatch
+package viktor.khlebnikov.gb.stopwatch.domain.calculate
+
+import viktor.khlebnikov.gb.stopwatch.state.StopwatchState
+import viktor.khlebnikov.gb.stopwatch.domain.timestamp.TimestampProvider
 
 class ElapsedTimeCalculator(
     private val timestampProvider: TimestampProvider,

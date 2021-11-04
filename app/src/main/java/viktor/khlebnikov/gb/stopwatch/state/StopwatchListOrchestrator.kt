@@ -1,4 +1,4 @@
-package viktor.khlebnikov.gb.stopwatch
+package viktor.khlebnikov.gb.stopwatch.state
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow

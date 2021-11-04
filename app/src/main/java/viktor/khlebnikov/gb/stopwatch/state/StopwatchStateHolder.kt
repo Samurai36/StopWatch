@@ -1,4 +1,8 @@
-package viktor.khlebnikov.gb.stopwatch
+package viktor.khlebnikov.gb.stopwatch.state
+
+import viktor.khlebnikov.gb.stopwatch.domain.calculate.ElapsedTimeCalculator
+import viktor.khlebnikov.gb.stopwatch.domain.calculate.StopwatchStateCalculator
+import viktor.khlebnikov.gb.stopwatch.domain.timestamp.formatter.TimestampMillisecondsFormatter
 
 class StopwatchStateHolder(
     private val stopwatchStateCalculator: StopwatchStateCalculator,
